@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/IIST Education/4th Semester/Digital &amp; VLSI - Lab/Project/Tic-toc-toe/tic_toc_toe/main_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/main_tb/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/red" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red[2:0]</obj_property>
+      <obj_property name="ObjectShortName">red[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/green" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green[2:0]</obj_property>
+      <obj_property name="ObjectShortName">green[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/blue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue[1:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/play" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">play</obj_property>
+      <obj_property name="ObjectShortName">play</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/play2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">play2</obj_property>
+      <obj_property name="ObjectShortName">play2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/x_position" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_position[3:0]</obj_property>
+      <obj_property name="ObjectShortName">x_position[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/H_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">H_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_counter[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/V_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">V_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V_counter[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
